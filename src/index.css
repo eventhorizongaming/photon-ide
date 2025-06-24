@@ -1,3 +1,35 @@
 body {
   margin: 0px;
+  background: var(--mainBackground);
+}
+
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.react-pane {
+  background: var(--paneBackground);
+  border: var(--paneBorder);
+  border-radius: var(--paneRadius);
+}
+
+.react-pane-handle {
+  min-width: var(--gapVertical);
+  min-height: var(--gapHorizontal);
+}
+
+.top-menu {
+  background: var(--paneBackground);
+  border-bottom: var(--paneBorder);
+  margin-bottom: var(--gapHorizontal);
+  width: 100%;
+  height: 2em;
+}
+
+.sidebar {
+  background: var(--paneBackground);
+  border: var(--paneBorder);
+  border-radius: var(--paneRadius);
+  width: 64px;
 }

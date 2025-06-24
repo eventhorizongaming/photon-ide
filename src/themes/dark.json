@@ -1,0 +1,11 @@
+{
+  "monacoTheme": "vs-dark",
+  "cssVars": {
+    "mainBackground": "#101010",
+    "paneBackground": "#181818",
+    "paneBorder": "1px solid #2b2b2b",
+    "gapHorizontal": "12px",
+    "gapVertical": "12px",
+    "paneRadius": "8px"
+  }
+}

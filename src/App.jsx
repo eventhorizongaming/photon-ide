@@ -1,6 +1,8 @@
+import { Layout } from "./layout/Layout.jsx";
+
 function App() {
   return (
-    <h1>Hello, world!</h1>
+    <Layout />
   )
 }
 
